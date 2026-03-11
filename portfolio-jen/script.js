@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // Enviar el correo usando EmailJS
-            emailjs.send('service_i5928dv', 'template_jjvvr0e', params)
+            emailjs.send('service_pbro24d', 'template_jjvvr0e', params)
                 .then(function (response) {
                     console.log('Mensaje enviado con éxito:', response);
                     alert('Tu mensaje ha sido enviado correctamente');

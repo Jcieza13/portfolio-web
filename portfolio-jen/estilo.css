@@ -68,7 +68,7 @@ html {
 /* SECCION INICIO */
 .inicio {
     background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
-        url(img/desarrollo.png);
+        url(img/sistema.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -129,9 +129,19 @@ html {
     background-color: #1CB698;
 }
 
+
+body {
+    background: 
+    linear-gradient(rgba(20,25,30,0.92), rgba(20,25,30,0.95)),
+    url("img/sobre.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* SECCION SOBRE MI */
 .sobremi {
-    background-color: #1e2326;
+    background-color: transparent;
     color: #fff;
     padding: 50px 20px;
 }
@@ -199,7 +209,7 @@ html {
 
 /* SECCION SKILLS */
 .skills {
-    background-color: #252A2E;
+    background-color: transparent;
     color: #fff;
     padding: 50px 20px;
 }
@@ -262,7 +272,7 @@ html {
 
 /* SECCION PORTFOLIO */
 .portfolio {
-    background-color: #252A2E;
+    background-color: transparent;
     color: #fff;
     padding: 50px 20px;
 }
@@ -357,7 +367,7 @@ html {
 /* SECCION CONTACTO */
 .contacto {
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color: transparent;
     color: #fff;
     padding: 50px 0;
 }
@@ -455,7 +465,7 @@ html {
 
 /* FOOTER */
 footer {
-    background-color: #252A2E;
+    background-color: transparent;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -603,7 +613,7 @@ h3 {
 /* ===== SECCION INTERESES ===== */
 
 .intereses{
-    background-color: #1e2326;
+    background-color: transparent;
     color: #fff;
     padding: 50px 20px;
 }
@@ -709,7 +719,7 @@ h3 {
 .certificaciones {
     padding: 40px 0 80px 0; /* ajusta según el espacio que quieras arriba */
     text-align: center;
-    background: #252A2E;    /* mismo fondo que otras secciones */
+    background-color: transparent;   /* mismo fondo que otras secciones */
     color: #fff;            /* blanco brillante para todo el texto */
 }
 
@@ -798,5 +808,21 @@ a:visited {
   color: white; 
 }
 
+section:not(#inicio)::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 60px auto 0 auto;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #1CB698,
+        #00BFFF,
+        #1CB698,
+        transparent
+    );
+}
 
 

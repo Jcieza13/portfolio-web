@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="pagina-index">
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#certificaciones" onclick="seleccionar()">FORMACIÓN</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <div class="imagen-perfil">
+                    <img src="img/Jean.png" alt="Foto de Perfil">
+                </div>
+            </div>
+            <h1>JEN PIERR CIEZA DÍAZ</h1>
+            <h2>Ingeniero informático <br> Desarrollador Full Stack</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jen-pierr-cieza-díaz-737011177"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jen Pierr Cieza.</span> con experiencia en desarrollo Backend. Habilidades en
+                programación y resolución de desafíos técnicos, especialmente en el desarrollo de API REST. Experiencia
+                con metodología Scrum y mejores prácticas ágiles..</p>
+            <div class="fila">
+                <div class="col">
+                </div>
+
+
+    </section>
+
+    <!-- SECCION SKILLS -->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Tecnologías</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <img src="icons/java-original.svg" alt="Java" class="skill-icon">
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/python-original.svg" alt="Python" class="skill-icon">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/javascript-original.svg" alt="JavaScript" class="skill-icon">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/html5-original.svg" alt="HTML" class="skill-icon">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/css3-original.svg" alt="CSS" class="skill-icon">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/angular-original.svg" alt="Angular" class="skill-icon">
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/mysql-original.svg" alt="MySQL" class="skill-icon">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/redhatopenshift.svg" alt="redhatopenshift" class="skill-icon">
+                            <span>OPENSHIFT</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="icons/aws.svg" alt="AWS" class="skill-icon">
+                            <span>AWS</span>
+                        </div>
+
+                        <h3>Ingeniería de Software</h3>
+
+                        <div class="skills-box">
+                            <div class="badges">
+                                <span class="badge">API REST</span>
+                                <span class="badge">Arquitectura por capas</span>
+                                <span class="badge">Testing</span>
+                                <span class="badge">Integración</span>
+                                <span class="badge">Manejo de errores</span>
+                                <span class="badge">Validación SQL</span>
+                            </div>
+                        </div>
+
+                        <h3>Experiencia de Desarrollo</h3>
+
+                        <div class="skills-box">
+                            <div class="badges">
+                                <span class="badge">Scrum / Kanban</span>
+                                <span class="badge">Jira</span>
+                                <span class="badge">Control de versiones Git</span>
+                                <span class="badge">Deploy / Redeploy</span>
+                                <span class="badge">Pruebas de integración</span>
+                                <span class="badge">Trabajo con QA</span>
+                                <span class="badge">Daily meetings</span>
+                                <span class="badge">Debugging</span>
+                                <span class="badge">Revisión de versiones</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION FORMACION Y CERTIFICACIONES -->
+    <section id="certificaciones" class="certificaciones">
+        <div class="contenido-seccion">
+            <h2>Formación y Certificaciones</h2>
+
+            <div class="cert-grid">
+
+                <div class="cert-card">
+                    <h3>Backend & Cloud</h3>
+                    <ul>
+                        <li>Java – Universidad Java de Cero a Experto (Udemy)</li>
+                        <li>Spring Boot – Desarrollo de APIs REST</li>
+                        <li>
+                            AWS Cloud Practitioner
+                            <a href="https://www.credly.com/badges/cbfa57a4-5097-4de2-9eab-aa69062d77c9/public_url"
+                                target="_blank">
+                                Ver credencial
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <h3>Testing & Metodologías</h3>
+                    <ul>
+                        <li>API Testing con Postman</li>
+                        <li>Scrum Fundamentals Certified</li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Excel Intermedio – Santander Open Academy</li>
+                        <li>Ethical Hacking – Hacker Mentor</li>
+                    </ul>
+                </div>
+
+                <div class="cert-card">
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li>Inglés – Nivel Pre-Intermedio (KOE)</li>
+                    </ul>
+                </div>
+
+                <!-- Nueva tarjeta con la imagen -->
+                <div class="cert-card">
+                    <h3>Skills Técnicos</h3>
+                    <img src="img/skills.png" alt="Skills técnicos">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+
+            <div class="galeria">
+
+                <!-- Proyecto 1 -->
+                <a href="https://github.com/Jcieza13/inventario-api-rest" target="_blank" class="proyecto">
+                    <img src="img/sistema de gestion de inventario.png" alt="Proyecto1">
+                    <div class="overlay">
+                        <h3>Inventory System – Backend REST API</h3>
+                        <p>
+                            API segura de gestión de inventario con arquitectura por capas, autenticación JWT,
+                            control de acceso por roles y cobertura de pruebas unitarias e integración.
+                            <br><br>
+                            <strong>Ver repositorio en GitHub →</strong>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Proyecto 2 -->
+                <a href="https://github.com/Jcieza13/sistema-pagos" target="_blank" class="proyecto">
+                    <img src="img/sistema de pagos.jpg" alt="Proyecto Sistema de Pagos">
+                    <div class="overlay">
+                        <h3>Sistema de gestión de Pago Estudiantes – FULL STACK</h3>
+                        <p>
+                            Plataforma full stack para la gestión de estudiantes y pagos.
+                            Incluye autenticación con roles (ADMIN y ESTUDIANTE), registro y consulta de pagos,
+                            integración con base de datos relacional y documentación automática con Swagger.
+                            <br><br>
+                            <strong>Ver repositorio en GitHub →</strong>
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Otros proyectos -->
+                <div class="proyecto">
+                    <img src="img/trabajando en ello.png" alt="Task Manager – Próximamente">
+                    <div class="overlay">
+                        <h3>Task Manager – Próximamente</h3>
+                        <p>Aplicación de gestión de tareas con Python (FastAPI), React, Docker y Kubernetes.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION INTERESES -->
+    <section id="intereses" class="intereses">
+        <div class="contenido-seccion">
+
+            <h2>INTERESES</h2>
+
+            <div class="contenedor-intereses">
+
+
+                <a href="intereses/deporte.html" class="interes">
+                    <i class="fa-solid fa-person-hiking"></i>
+                    <span>DEPORTE</span>
+                </a>
+
+                <a href="intereses/libros.html" class="interes">
+                    <i class="fa-solid fa-book"></i>
+                    <span>LIBROS</span>
+                </a>
+
+                <a href="intereses/tecnologia.html" class="interes">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>TECNOLOGÍA</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="contact-form">
+                        <input type="text" id="nombre" name="user_name" placeholder="Tu Nombre" required>
+                        <input type="email" id="email" name="user_email" placeholder="Dirección de correo" required>
+                        <input type="text" id="tema" name="subject" placeholder="Tema" required>
+                        <textarea id="mensaje" name="message" cols="30" rows="10" placeholder="Mensaje"
+                            required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <!-- Referencias a scripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
